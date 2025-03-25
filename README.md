@@ -20,9 +20,9 @@ Method -> Endpoint ->	               Description
 
 POST   -> /api/tasks/create/	    Create a new task
 
-PUT	   -> /api/tasks/<id>/assign/	Assign users to a task
+PUT	   -> /api/tasks/task_id/assign/	Assign users to a task
 
-GET	   -> /api/tasks/user/<id>/	    Get tasks for a specific user
+GET	   -> /api/tasks/user/id/	    Get tasks for a specific user
 
 For Create Task:
 
