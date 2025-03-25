@@ -17,8 +17,11 @@ python manage.py migrate: do all the changes in the database
 python manage.py createsuperuser
 
 Method -> Endpoint ->	               Description
+
 POST   -> /api/tasks/create/	    Create a new task
+
 PUT	   -> /api/tasks/<id>/assign/	Assign users to a task
+
 GET	   -> /api/tasks/user/<id>/	    Get tasks for a specific user
 
 For Create Task:
@@ -41,7 +44,6 @@ Endpoint: PUT /api/tasks/1/assign/
 {
   "assigned_users": [1]
 }
-
 
 Retrieve Tasks for a User
 
